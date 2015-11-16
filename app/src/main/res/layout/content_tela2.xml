@@ -10,4 +10,13 @@
     tools:showIn="@layout/activity_tela2" tools:context="com.example.thiago.multiplastelas.Tela2"
     android:background="#aadba1a1">
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="&lt; Voltar"
+        android:id="@+id/button5"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="130dp"
+        android:onClick="voltar" />
 </RelativeLayout>

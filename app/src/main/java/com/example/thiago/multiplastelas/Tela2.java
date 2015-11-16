@@ -1,5 +1,6 @@
 package com.example.thiago.multiplastelas;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -24,6 +25,12 @@ public class Tela2 extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+    }
+
+    public void voltar(View view)
+    {
+        Intent intent = new Intent(Tela2.this, MainActivity.class);
+        Tela2.this.startActivity(intent);
     }
 
 }
